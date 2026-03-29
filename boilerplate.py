@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from datetime import datetime
 class IOHandler:
     def __init__(self):
-        self.input_data = sys.stdin.readline
+        self.input_data = (line for line in sys.stdin)
         self.output_buffer = []
         parser = ArgumentParser()
         parser.add_argument('--islocal', action='store_true')
@@ -20,7 +20,7 @@ class IOHandler:
             sys.stderr.flush()
     def input(self, cast_type=str, sep=None):
         try:
-            line = self.input_data().strip()
+            line = next(self.input_data).strip()
             if not line:return None
             if isinstance(cast_type, list) and len(cast_type) == 0:return line.split(sep)
             if isinstance(cast_type, list) and len(cast_type) > 0:inner_type = cast_type[0];return [inner_type(x) for x in line.split(sep)]
