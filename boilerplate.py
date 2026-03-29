@@ -29,7 +29,7 @@ class IOHandler:
                 inner_type = cast_type[0]
                 return tuple(inner_type(x) for x in line.split(sep))
             return cast_type(line)            
-        except (StopIteration, ValueError, TypeError):return None
+        except (EOFError, StopIteration, ValueError, TypeError):return None
     def debprint(self, *args, sep=" ", end="\n"):
         if self.islocal:
             processed = []
