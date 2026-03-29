@@ -52,7 +52,7 @@ You should write all your logic **only between**:
 ```python
 #--START--your code begins here
 
-# your solution
+
 
 #--STOP--your code ends here
 ```
