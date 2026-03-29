@@ -13,10 +13,10 @@ class IOHandler:
         if self.islocal:
             program_name = parser.prog
             now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            sys.stderr.write(f"\n{'='*40}\n")
+            sys.stderr.write(f"\n{'='*30}\n")
             sys.stderr.write(f"RUNNING: {program_name}\n")
             sys.stderr.write(f"TIMESTAMP: {now}\n")
-            sys.stderr.write(f"{'-'*40}\n")
+            sys.stderr.write(f"{'-'*30}\n")
             sys.stderr.flush()
     def input(self, cast_type=str):
         try:
