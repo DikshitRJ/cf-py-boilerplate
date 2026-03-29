@@ -232,7 +232,9 @@ This enables:
 * Debug logs
 * Execution timestamp
 * Program name logging
-
+```text
+Note: Anything printed using `debprint()` to STDERROR will display only if this flag is used 
+```
 On Codeforces, this flag is not used, so no extra output is produced.
 
 ---
