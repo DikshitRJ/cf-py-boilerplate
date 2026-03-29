@@ -3,7 +3,7 @@
 Codeforces I/O Python Boilerplate | Optimized Python boilerplate for competitive programming with fast I/O, type-safe input parsing, buffered output handling, and stderr-based debugging, designed for seamless use with the CPH VSCode extension. 
 Author: DikshitRJ
 Repo: https://github.com/DikshitRJ/cf-py-boilerplate
-License: MIT
+MIT License | Copyright (c) 2026 DikshitRJ
 USAGE GUIDE:
 --------------------------------------------------------------------------------
 1. input(cast_type=str, sep=None)
