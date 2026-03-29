@@ -246,7 +246,7 @@ To fully leverage this boilerplate, configure the **CPH extension properly**.
 
 ### Step 2: Place Boilerplate File
 
-* Save the boilerplate (`boilerplate.py` in this repository) as:
+* Save the boilerplate ([boilerplate.py](./boilerplate.py) in this repository) as:
 
 ```
 boilerplate.py
