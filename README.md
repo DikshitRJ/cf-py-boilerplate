@@ -1,7 +1,8 @@
 # Codeforces I/O Python Boilerplate Usage Guide
 Competitive programming platforms like Codeforces rely on strict and often cumbersome standard input/output handling, which can slow down development and introduce avoidable friction—especially when repeatedly writing parsing logic, formatting outputs, or debugging intermediate states. This boilerplate was designed to abstract away those low-level concerns and provide a consistent, efficient, and developer-friendly interface for I/O operations. By standardizing input parsing, buffering output, and enabling safe debugging through stderr, it allows you to focus entirely on problem-solving logic rather than boilerplate mechanics.
 
-<img width="956" height="802" alt="image" src="https://github.com/user-attachments/assets/0e4debf6-ff39-40d6-a581-901f721d4656" />
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjB0ajhsc205NjRiNWlyNGhlOG1jbHUwMDBtYWR2b3gzOGtxY3h3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vZaNgjjmhvevdZbSVP/giphy.gif" width="400"/>
+
 
 
 This markdown explains how to correctly use the provided Python boilerplate for competitive programming (especially Codeforces), along with proper configuration of the **CPH (Competitive Programming Helper)** VSCode extension.
