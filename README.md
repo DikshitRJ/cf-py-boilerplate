@@ -63,36 +63,49 @@ You should write all your logic **only between**:
 
 ---
 
+# Input Handling Documentation
+
 ## 2. Input Handling
 
-You can pass any type as an argument to `input()`:
+You can pass any type or structure as an argument to `input()`:
 
 * `input(int)` → converts full line to `int`
 * `input(str)` → returns string (default behavior)
 * `input(<type>)` → casts the input into the given type (if valid)
 
-### For lists:
+### For Lists:
 
 * `input([])` → returns list of strings
 * `input([int])` → returns list of integers
 * `input([<type>])` → returns list casted to that type
 
-### Default behavior:
+### For Tuples:
+
+* `input(())` → returns tuple of strings
+* `input((int,))` → returns tuple of integers
+* `input((<type>,))` → returns tuple casted to that type
+
+### Custom Delimiters:
+
+You can specify a separator for split-based parsing:
+
+* `input([int], sep=',')` → parses a comma-separated list of integers
+* `input((str,), sep='|')` → parses a pipe-separated tuple of strings
+
+### Default Behavior:
 
 * `input()` without arguments returns a string
 
-### Custom parsing:
+### Custom Parsing:
 
-If you need a custom parsing format (e.g., mixed formats, special delimiters):
+If you need a custom parsing format (e.g., mixed formats, complex logic):
 
 ```python
 raw = input()
 ```
-
 Then process it manually.
 
-* Returns `None` safely if input ends or parsing fails.
-
+* Returns None safely if input ends or parsing fails
 ---
 
 ## 3. Output Handling
