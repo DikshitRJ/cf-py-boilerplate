@@ -1,4 +1,30 @@
 #region Boilerplate
+"""
+Codeforces I/O Python Boilerplate | Optimized Python boilerplate for competitive programming with fast I/O, type-safe input parsing, buffered output handling, and stderr-based debugging, designed for seamless use with the CPH VSCode extension. 
+Author: DikshitRJ
+Repo: https://github.com/DikshitRJ/cf-py-boilerplate
+License: MIT
+USAGE GUIDE:
+--------------------------------------------------------------------------------
+1. input(cast_type=str, sep=None)
+   - Fetches the next available token from stdin.
+   - cast_type: int, float, or list/tuple (e.g., input([int]) for a list of ints).
+   - Automatically handles whitespace and buffers input for speed.
+   - Example: n = input(int) | arr = input([int])
+
+2. print(*args, sep=' ', end='\n')
+   - Buffered output handler. Use this instead of the built-in print().
+   - Automatically formats lists/tuples (e.g., [1,2,3] -> "1 2 3").
+   - Buffers data and flushes only at program exit for max performance.
+   - Example: print(arr) | print(x, y, sep='-')
+
+3. debprint(*args, sep=' ', end='\n')
+   - Debug-only logger; prints exclusively to stderr.
+   - Only executes if the --islocal flag is provided. 
+   - Safe to leave in code; ignored by judges on Codeforces.
+   - Example: debprint("Debug val:", x)
+--------------------------------------------------------------------------------
+"""
 import sys
 from argparse import ArgumentParser
 from datetime import datetime
