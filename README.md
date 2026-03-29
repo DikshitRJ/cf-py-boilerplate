@@ -37,6 +37,7 @@ This markdown explains how to correctly use the provided Python boilerplate for 
     - [When submitting to Codeforces:](#when-submitting-to-codeforces)
   - [9. Example Usage](#9-example-usage)
   - [10. Advantages of This Setup](#10-advantages-of-this-setup)
+  - [11. Acknowledgements](#11-acknowledgements)
 
 
 ---
@@ -365,5 +366,6 @@ for _ in range(t):
 * Consistent structure across problems
 
 ---
+## 11. Acknowledgments
 
-This setup is close to what high-rated competitive programmers use in practice—minimal overhead, maximum control.
+A huge shoutout to [Divyanshu Agrawal](https://github.com/agrawal-d/) for creating the [CPH (Competitive Programming Helper)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) extension. It is arguably the best tool for VSCode. It automates test case fetching, local execution, and judge comparison seamlessly. This extension has been a game-changer in my competitive programming journey, and this boilerplate was specifically built to leverage its full potential.
