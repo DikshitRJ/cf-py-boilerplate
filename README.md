@@ -87,7 +87,7 @@ You can pass any type or structure as an argument to `input()`:
 
 ### Custom Delimiters:
 
-You can specify a separator for split-based parsing:
+You can specify a separator for split-based parsing, using the `sep` parameter:
 
 * `input([int], sep=',')` → parses a comma-separated list of integers
 * `input((str,), sep='|')` → parses a pipe-separated tuple of strings
