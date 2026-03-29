@@ -233,6 +233,9 @@ On Codeforces, this flag is not used, so no extra output is produced.
 
 To fully leverage this boilerplate, configure the **CPH extension properly**.
 
+<img width="708" height="1006" alt="Image showing judge results in CPH extension" src="https://github.com/user-attachments/assets/27fb758c-ae8c-49b9-b364-4bb33da30afd" />
+
+
 ---
 
 ### Step 1: Set Default Language to Python
