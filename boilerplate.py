@@ -7,7 +7,7 @@ class IOHandler:
     def __init__(self):
         self.input_data = (line for line in sys.stdin)
         self.output_buffer = []
-        self.error_buffer = []  # New buffer for stderr
+        self.error_buffer = []
         parser = ArgumentParser()
         parser.add_argument('--islocal', action='store_true')
         args = parser.parse_args()
