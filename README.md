@@ -4,10 +4,8 @@ Competitive programming platforms like Codeforces rely on strict and often cumbe
 This markdown explains how to correctly use the provided Python boilerplate for competitive programming (especially Codeforces), along with proper configuration of the **CPH (Competitive Programming Helper)** VSCode extension.
 
 ---
-# Table of Contents
+## Table of Contents
 
-- [Codeforces Python Boilerplate Usage Guide](#codeforces-python-boilerplate-usage-guide)
-- [Table of Contents](#table-of-contents)
   - [1. Overview of the Boilerplate](#1-overview-of-the-boilerplate)
   - [2. Input Handling](#2-input-handling)
     - [For lists:](#for-lists)
@@ -24,7 +22,7 @@ This markdown explains how to correctly use the provided Python boilerplate for 
     - [Typical use cases:](#typical-use-cases)
   - [5. Local Mode (`--islocal`)](#5-local-mode---islocal)
   - [6. Important Notes](#6-important-notes)
-- [7. VSCode CPH Extension Setup](#7-vscode-cph-extension-setup)
+  - [7. VSCode CPH Extension Setup](#7-vscode-cph-extension-setup)
     - [Step 1: Set Default Language to Python](#step-1-set-default-language-to-python)
     - [Step 2: Place Boilerplate File](#step-2-place-boilerplate-file)
     - [Step 3: Set Template Path](#step-3-set-template-path)
@@ -231,7 +229,7 @@ On Codeforces, this flag is not used, so no extra output is produced.
 
 ---
 
-# 7. VSCode CPH Extension Setup
+## 7. VSCode CPH Extension Setup
 
 To fully leverage this boilerplate, configure the **CPH extension properly**.
 
