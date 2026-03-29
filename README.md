@@ -37,7 +37,7 @@ This markdown explains how to correctly use the provided Python boilerplate for 
     - [When submitting to Codeforces:](#when-submitting-to-codeforces)
   - [9. Example Usage](#9-example-usage)
   - [10. Advantages of This Setup](#10-advantages-of-this-setup)
-  - [11. Acknowledgements](#11-acknowledgements)
+  - [11. Acknowledgments](#11-acknowledgments)
 
 
 ---
